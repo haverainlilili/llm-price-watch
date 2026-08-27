@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-27T05:00:00Z",
+ "generated_at": "2026-08-27T11:32:37Z",
  "fx": {
   "usd_cny": 6.7205,
-  "source": "frankfurter.app",
-  "fetched_at": "2026-08-27T05:00:00Z"
+  "source": "frankfurter.dev",
+  "fetched_at": "2026-08-27T11:32:37Z"
  },
  "providers": {
   "anthropic": {
@@ -77,7 +77,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:30Z"
    }
   },
   "openai": {
@@ -279,7 +281,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:30Z"
    }
   },
   "google": {
@@ -369,7 +373,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:30Z"
    }
   },
   "xai": {
@@ -386,7 +392,9 @@
     "page_has_pricing": false,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": "本地网络无法访问该站点, 等待 CI 首次抓取"
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:32Z"
    }
   },
   "mistral": {
@@ -403,7 +411,9 @@
     "page_has_pricing": false,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": "本地网络无法访问该站点, 等待 CI 首次抓取"
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:32Z"
    }
   },
   "deepseek": {
@@ -437,7 +447,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:33Z"
    }
   },
   "qwen": {
@@ -503,7 +515,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:34Z"
    }
   },
   "doubao": {
@@ -553,7 +567,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:36Z"
    }
   },
   "zhipu": {
@@ -603,7 +619,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:31:58Z"
    }
   },
   "moonshot": {
@@ -685,7 +703,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:32:13Z"
    }
   },
   "minimax": {
@@ -719,7 +739,9 @@
     "page_has_pricing": true,
     "price_hash": null,
     "fetched_at": null,
-    "status_note": null
+    "status_note": "等待 ANTHROPIC_API_KEY",
+    "last_error": null,
+    "last_fetch_ts": "2026-08-27T11:32:22Z"
    }
   }
  },
