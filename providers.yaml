@@ -41,7 +41,7 @@ providers:
     name_cn: Mistral
     region: 国际
     pricing_url: https://mistral.ai/pricing
-    news_url: https://docs.mistral.ai/changelog
+    news_url: https://mistral.ai/news
   - id: deepseek
     name: DeepSeek
     name_cn: DeepSeek
