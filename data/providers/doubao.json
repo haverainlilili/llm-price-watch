@@ -1,0 +1,44 @@
+{
+ "url": "https://www.volcengine.com/docs/82379/1099320",
+ "source": "seed",
+ "currency": "CNY",
+ "promotions": "火山方舟 deepseek-v4-pro 计费标准将于 2026-08-28 起调整(输入 4.5→9 元, 输出 13.5→27 元), 调整前仍按当前价格计费。",
+ "models": [
+  {
+   "model": "deepseek-v4-pro",
+   "input_per_1m": 4.5,
+   "output_per_1m": 13.5,
+   "cached_input_per_1m": 0.3,
+   "currency": null,
+   "note": "2026-08-28 起调整为 输入¥9/输出¥27"
+  },
+  {
+   "model": "deepseek-v4-flash",
+   "input_per_1m": 3.0,
+   "output_per_1m": 9.0,
+   "cached_input_per_1m": 0.1,
+   "currency": null,
+   "note": "2026-08-21 已完成价格上调"
+  },
+  {
+   "model": "doubao-seed-2.0-lite",
+   "input_per_1m": 0.48,
+   "output_per_1m": 5.76,
+   "cached_input_per_1m": 0.48,
+   "currency": null,
+   "note": "阶梯计价(≤32K 档)"
+  },
+  {
+   "model": "doubao-seed-2.0-mini",
+   "input_per_1m": 0.48,
+   "output_per_1m": 5.76,
+   "cached_input_per_1m": 0.48,
+   "currency": null,
+   "note": "阶梯计价(≤32K 档)"
+  }
+ ],
+ "page_has_pricing": true,
+ "price_hash": null,
+ "fetched_at": null,
+ "status_note": null
+}

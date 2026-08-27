@@ -1,0 +1,60 @@
+{
+ "url": "https://help.aliyun.com/zh/model-studio/model-pricing.md",
+ "source": "seed",
+ "currency": "CNY",
+ "promotions": "新人免费额度(每模型100万Token, 90天有效); Batch 调用半价; 上下文缓存享折扣; qwen3.7-max 限时5折。",
+ "models": [
+  {
+   "model": "qwen3.8-max-prime",
+   "input_per_1m": 24,
+   "output_per_1m": 72,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "优速模式"
+  },
+  {
+   "model": "qwen3.8-max",
+   "input_per_1m": 12,
+   "output_per_1m": 36,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "Batch 调用半价"
+  },
+  {
+   "model": "qwen3.7-max",
+   "input_per_1m": 6,
+   "output_per_1m": 18,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "限时5折, 原价 ¥12/¥36"
+  },
+  {
+   "model": "qwen3.7-plus",
+   "input_per_1m": 2,
+   "output_per_1m": 8,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "≤256K; 256K-1M 档 ¥6/¥24"
+  },
+  {
+   "model": "qwen3.7-flash",
+   "input_per_1m": 0.2,
+   "output_per_1m": 0.8,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "阶梯计价, 长上下文更高"
+  },
+  {
+   "model": "qwen3.5-plus",
+   "input_per_1m": 0.8,
+   "output_per_1m": 4.8,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  }
+ ],
+ "page_has_pricing": true,
+ "price_hash": null,
+ "fetched_at": null,
+ "status_note": null
+}

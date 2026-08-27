@@ -1,0 +1,44 @@
+{
+ "url": "https://open.bigmodel.cn/pricing",
+ "source": "seed",
+ "currency": "CNY",
+ "promotions": "GLM-5.3-Flash 限时五折(两周); 多个模型缓存存储限时免费。",
+ "models": [
+  {
+   "model": "GLM-5.3",
+   "input_per_1m": 8,
+   "output_per_1m": 28,
+   "cached_input_per_1m": 2,
+   "currency": null,
+   "note": "新品"
+  },
+  {
+   "model": "GLM-5.3-Flash",
+   "input_per_1m": 0.4,
+   "output_per_1m": 1.4,
+   "cached_input_per_1m": 0.115,
+   "currency": null,
+   "note": "5折限时两周, 原价 ¥0.8/¥2.8; 缓存存储限时免费"
+  },
+  {
+   "model": "GLM-5.2",
+   "input_per_1m": 8,
+   "output_per_1m": 28,
+   "cached_input_per_1m": 2,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "GLM-5",
+   "input_per_1m": 8,
+   "output_per_1m": 28,
+   "cached_input_per_1m": 2,
+   "currency": null,
+   "note": null
+  }
+ ],
+ "page_has_pricing": true,
+ "price_hash": null,
+ "fetched_at": null,
+ "status_note": null
+}

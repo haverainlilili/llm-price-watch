@@ -1,0 +1,28 @@
+{
+ "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+ "source": "seed",
+ "currency": "CNY",
+ "promotions": "空闲时段(工作日 9-12 / 14-18 点以外)所有价格五折; 上下文缓存命中价再低一个数量级。",
+ "models": [
+  {
+   "model": "deepseek-v4-flash",
+   "input_per_1m": 3.0,
+   "output_per_1m": 9.0,
+   "cached_input_per_1m": 0.1,
+   "currency": null,
+   "note": "高峰时段价; 空闲时段半价; vision 实验版同价"
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "input_per_1m": 9.0,
+   "output_per_1m": 27.0,
+   "cached_input_per_1m": 0.3,
+   "currency": null,
+   "note": "高峰时段价; 空闲时段半价"
+  }
+ ],
+ "page_has_pricing": true,
+ "price_hash": null,
+ "fetched_at": null,
+ "status_note": null
+}

@@ -1,0 +1,841 @@
+{
+ "generated_at": "2026-08-27T05:00:00Z",
+ "fx": {
+  "usd_cny": 6.7205,
+  "source": "frankfurter.app",
+  "fetched_at": "2026-08-27T05:00:00Z"
+ },
+ "providers": {
+  "anthropic": {
+   "name": "Anthropic (Claude)",
+   "region": "国际",
+   "pricing_url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+   "news_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
+   "record": {
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+    "source": "seed",
+    "currency": "USD",
+    "promotions": null,
+    "models": [
+     {
+      "model": "claude-fable-5",
+      "input_per_1m": 10,
+      "output_per_1m": 50,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "最强旗舰"
+     },
+     {
+      "model": "claude-opus-5",
+      "input_per_1m": 5,
+      "output_per_1m": 25,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "claude-opus-4-8",
+      "input_per_1m": 5,
+      "output_per_1m": 25,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "claude-opus-4-6",
+      "input_per_1m": 5,
+      "output_per_1m": 25,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "claude-sonnet-5",
+      "input_per_1m": 2,
+      "output_per_1m": 10,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "claude-sonnet-4-6",
+      "input_per_1m": 3,
+      "output_per_1m": 15,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "claude-haiku-4-5",
+      "input_per_1m": 1,
+      "output_per_1m": 5,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "openai": {
+   "name": "OpenAI",
+   "region": "国际",
+   "pricing_url": "https://platform.openai.com/docs/pricing",
+   "news_url": "https://platform.openai.com/docs/changelog",
+   "record": {
+    "url": "https://platform.openai.com/docs/pricing",
+    "source": "seed",
+    "currency": "USD",
+    "promotions": null,
+    "models": [
+     {
+      "model": "gpt-5.6-sol",
+      "input_per_1m": 4,
+      "output_per_1m": 20,
+      "cached_input_per_1m": 0.4,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.6-terra",
+      "input_per_1m": 2,
+      "output_per_1m": 12,
+      "cached_input_per_1m": 0.2,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.6-luna",
+      "input_per_1m": 0.2,
+      "output_per_1m": 1.2,
+      "cached_input_per_1m": 0.02,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.5",
+      "input_per_1m": 5,
+      "output_per_1m": 30,
+      "cached_input_per_1m": 0.5,
+      "currency": null,
+      "note": "≤272K 上下文"
+     },
+     {
+      "model": "gpt-5.5-pro",
+      "input_per_1m": 30,
+      "output_per_1m": 180,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "≤272K 上下文"
+     },
+     {
+      "model": "gpt-5.4",
+      "input_per_1m": 2.5,
+      "output_per_1m": 15,
+      "cached_input_per_1m": 0.25,
+      "currency": null,
+      "note": "≤272K 上下文"
+     },
+     {
+      "model": "gpt-5.4-mini",
+      "input_per_1m": 0.75,
+      "output_per_1m": 4.5,
+      "cached_input_per_1m": 0.075,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.4-nano",
+      "input_per_1m": 0.2,
+      "output_per_1m": 1.25,
+      "cached_input_per_1m": 0.02,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.4-pro",
+      "input_per_1m": 30,
+      "output_per_1m": 180,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "≤272K 上下文"
+     },
+     {
+      "model": "gpt-5.2",
+      "input_per_1m": 1.75,
+      "output_per_1m": 14,
+      "cached_input_per_1m": 0.175,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.2-pro",
+      "input_per_1m": 21,
+      "output_per_1m": 168,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5.1",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10,
+      "cached_input_per_1m": 0.125,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10,
+      "cached_input_per_1m": 0.125,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5-mini",
+      "input_per_1m": 0.25,
+      "output_per_1m": 2,
+      "cached_input_per_1m": 0.025,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5-nano",
+      "input_per_1m": 0.05,
+      "output_per_1m": 0.4,
+      "cached_input_per_1m": 0.005,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-5-pro",
+      "input_per_1m": 15,
+      "output_per_1m": 120,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-4.1",
+      "input_per_1m": 2,
+      "output_per_1m": 8,
+      "cached_input_per_1m": 0.5,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-4.1-mini",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6,
+      "cached_input_per_1m": 0.1,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-4.1-nano",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cached_input_per_1m": 0.025,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-4o",
+      "input_per_1m": 2.5,
+      "output_per_1m": 10,
+      "cached_input_per_1m": 1.25,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gpt-4o-mini",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6,
+      "cached_input_per_1m": 0.075,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "o3",
+      "input_per_1m": 2,
+      "output_per_1m": 8,
+      "cached_input_per_1m": 0.5,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "o4-mini",
+      "input_per_1m": 1.1,
+      "output_per_1m": 4.4,
+      "cached_input_per_1m": 0.275,
+      "currency": null,
+      "note": null
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "google": {
+   "name": "Google Gemini",
+   "region": "国际",
+   "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "news_url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "record": {
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "source": "seed",
+    "currency": "USD",
+    "promotions": null,
+    "models": [
+     {
+      "model": "gemini-3.7-flash",
+      "input_per_1m": 0.75,
+      "output_per_1m": 3.75,
+      "cached_input_per_1m": 0.075,
+      "currency": null,
+      "note": "发布期优惠价, 2027-01-01 起涨至 $1.50/$7.50"
+     },
+     {
+      "model": "gemini-3.6-flash",
+      "input_per_1m": 0.75,
+      "output_per_1m": 3.75,
+      "cached_input_per_1m": 0.075,
+      "currency": null,
+      "note": "发布期优惠价, 2027-01-01 起涨至 $1.50/$7.50"
+     },
+     {
+      "model": "gemini-3.5-flash",
+      "input_per_1m": 1.5,
+      "output_per_1m": 9,
+      "cached_input_per_1m": 0.15,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gemini-3.5-flash-lite",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cached_input_per_1m": 0.03,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "gemini-3.1-flash-lite",
+      "input_per_1m": 0.25,
+      "output_per_1m": 1.5,
+      "cached_input_per_1m": 0.025,
+      "currency": null,
+      "note": "音频输入 $0.50"
+     },
+     {
+      "model": "gemini-3.1-pro-preview",
+      "input_per_1m": 2,
+      "output_per_1m": 12,
+      "cached_input_per_1m": 0.2,
+      "currency": null,
+      "note": "≤200K; >200K 输入 $4 / 输出 $18"
+     },
+     {
+      "model": "gemini-2.5-pro",
+      "input_per_1m": 1.25,
+      "output_per_1m": 10,
+      "cached_input_per_1m": 0.125,
+      "currency": null,
+      "note": "≤200K; >200K 输入 $2.50 / 输出 $15"
+     },
+     {
+      "model": "gemini-2.5-flash",
+      "input_per_1m": 0.3,
+      "output_per_1m": 2.5,
+      "cached_input_per_1m": 0.03,
+      "currency": null,
+      "note": "音频输入 $1.00"
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "input_per_1m": 0.1,
+      "output_per_1m": 0.4,
+      "cached_input_per_1m": 0.01,
+      "currency": null,
+      "note": "音频输入 $0.30"
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "xai": {
+   "name": "xAI (Grok)",
+   "region": "国际",
+   "pricing_url": "https://docs.x.ai/docs/models",
+   "news_url": null,
+   "record": {
+    "url": "https://docs.x.ai/docs/models",
+    "source": "seed",
+    "currency": null,
+    "promotions": null,
+    "models": [],
+    "page_has_pricing": false,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": "本地网络无法访问该站点, 等待 CI 首次抓取"
+   }
+  },
+  "mistral": {
+   "name": "Mistral",
+   "region": "国际",
+   "pricing_url": "https://mistral.ai/pricing",
+   "news_url": "https://docs.mistral.ai/changelog",
+   "record": {
+    "url": "https://mistral.ai/pricing",
+    "source": "seed",
+    "currency": null,
+    "promotions": null,
+    "models": [],
+    "page_has_pricing": false,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": "本地网络无法访问该站点, 等待 CI 首次抓取"
+   }
+  },
+  "deepseek": {
+   "name": "DeepSeek",
+   "region": "国内",
+   "pricing_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+   "news_url": "https://api-docs.deepseek.com/zh-cn/updates",
+   "record": {
+    "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "空闲时段(工作日 9-12 / 14-18 点以外)所有价格五折; 上下文缓存命中价再低一个数量级。",
+    "models": [
+     {
+      "model": "deepseek-v4-flash",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0,
+      "cached_input_per_1m": 0.1,
+      "currency": null,
+      "note": "高峰时段价; 空闲时段半价; vision 实验版同价"
+     },
+     {
+      "model": "deepseek-v4-pro",
+      "input_per_1m": 9.0,
+      "output_per_1m": 27.0,
+      "cached_input_per_1m": 0.3,
+      "currency": null,
+      "note": "高峰时段价; 空闲时段半价"
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "qwen": {
+   "name": "阿里云百炼 (Qwen)",
+   "region": "国内",
+   "pricing_url": "https://help.aliyun.com/zh/model-studio/model-pricing.md",
+   "news_url": "https://help.aliyun.com/zh/model-studio/model-release-notes.md",
+   "record": {
+    "url": "https://help.aliyun.com/zh/model-studio/model-pricing.md",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "新人免费额度(每模型100万Token, 90天有效); Batch 调用半价; 上下文缓存享折扣; qwen3.7-max 限时5折。",
+    "models": [
+     {
+      "model": "qwen3.8-max-prime",
+      "input_per_1m": 24,
+      "output_per_1m": 72,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "优速模式"
+     },
+     {
+      "model": "qwen3.8-max",
+      "input_per_1m": 12,
+      "output_per_1m": 36,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "Batch 调用半价"
+     },
+     {
+      "model": "qwen3.7-max",
+      "input_per_1m": 6,
+      "output_per_1m": 18,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "限时5折, 原价 ¥12/¥36"
+     },
+     {
+      "model": "qwen3.7-plus",
+      "input_per_1m": 2,
+      "output_per_1m": 8,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "≤256K; 256K-1M 档 ¥6/¥24"
+     },
+     {
+      "model": "qwen3.7-flash",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.8,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "阶梯计价, 长上下文更高"
+     },
+     {
+      "model": "qwen3.5-plus",
+      "input_per_1m": 0.8,
+      "output_per_1m": 4.8,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": null
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "doubao": {
+   "name": "火山方舟 (豆包)",
+   "region": "国内",
+   "pricing_url": "https://www.volcengine.com/docs/82379/1099320",
+   "news_url": null,
+   "record": {
+    "url": "https://www.volcengine.com/docs/82379/1099320",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "火山方舟 deepseek-v4-pro 计费标准将于 2026-08-28 起调整(输入 4.5→9 元, 输出 13.5→27 元), 调整前仍按当前价格计费。",
+    "models": [
+     {
+      "model": "deepseek-v4-pro",
+      "input_per_1m": 4.5,
+      "output_per_1m": 13.5,
+      "cached_input_per_1m": 0.3,
+      "currency": null,
+      "note": "2026-08-28 起调整为 输入¥9/输出¥27"
+     },
+     {
+      "model": "deepseek-v4-flash",
+      "input_per_1m": 3.0,
+      "output_per_1m": 9.0,
+      "cached_input_per_1m": 0.1,
+      "currency": null,
+      "note": "2026-08-21 已完成价格上调"
+     },
+     {
+      "model": "doubao-seed-2.0-lite",
+      "input_per_1m": 0.48,
+      "output_per_1m": 5.76,
+      "cached_input_per_1m": 0.48,
+      "currency": null,
+      "note": "阶梯计价(≤32K 档)"
+     },
+     {
+      "model": "doubao-seed-2.0-mini",
+      "input_per_1m": 0.48,
+      "output_per_1m": 5.76,
+      "cached_input_per_1m": 0.48,
+      "currency": null,
+      "note": "阶梯计价(≤32K 档)"
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "zhipu": {
+   "name": "智谱 (GLM)",
+   "region": "国内",
+   "pricing_url": "https://open.bigmodel.cn/pricing",
+   "news_url": "https://docs.bigmodel.cn/cn/update/new-releases.md",
+   "record": {
+    "url": "https://open.bigmodel.cn/pricing",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "GLM-5.3-Flash 限时五折(两周); 多个模型缓存存储限时免费。",
+    "models": [
+     {
+      "model": "GLM-5.3",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cached_input_per_1m": 2,
+      "currency": null,
+      "note": "新品"
+     },
+     {
+      "model": "GLM-5.3-Flash",
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.4,
+      "cached_input_per_1m": 0.115,
+      "currency": null,
+      "note": "5折限时两周, 原价 ¥0.8/¥2.8; 缓存存储限时免费"
+     },
+     {
+      "model": "GLM-5.2",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cached_input_per_1m": 2,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "GLM-5",
+      "input_per_1m": 8,
+      "output_per_1m": 28,
+      "cached_input_per_1m": 2,
+      "currency": null,
+      "note": null
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "moonshot": {
+   "name": "月之暗面 (Kimi)",
+   "region": "国内",
+   "pricing_url": "https://platform.kimi.com/docs/pricing/chat.md",
+   "news_url": "https://platform.kimi.com/docs/changelog/changelog/moonlight.md",
+   "record": {
+    "url": "https://platform.kimi.com/docs/pricing/chat.md",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "文件内容抽取/文件存储接口限时免费; moonshot-v1 系列预计 8 月 31 日全平台下线。",
+    "models": [
+     {
+      "model": "kimi-k3",
+      "input_per_1m": 20,
+      "output_per_1m": 100,
+      "cached_input_per_1m": 2,
+      "currency": null,
+      "note": "旗舰, 1M 上下文"
+     },
+     {
+      "model": "kimi-k2.7-code",
+      "input_per_1m": 6.5,
+      "output_per_1m": 27,
+      "cached_input_per_1m": 1.3,
+      "currency": null,
+      "note": "Coding 模型"
+     },
+     {
+      "model": "kimi-k2.7-code-highspeed",
+      "input_per_1m": 13,
+      "output_per_1m": 54,
+      "cached_input_per_1m": 2.6,
+      "currency": null,
+      "note": "Coding 高速版"
+     },
+     {
+      "model": "kimi-k2.6",
+      "input_per_1m": 6.5,
+      "output_per_1m": 27,
+      "cached_input_per_1m": 1.1,
+      "currency": null,
+      "note": null
+     },
+     {
+      "model": "kimi-k2.5",
+      "input_per_1m": 4,
+      "output_per_1m": 21,
+      "cached_input_per_1m": 0.7,
+      "currency": null,
+      "note": "视觉+文本多模态"
+     },
+     {
+      "model": "moonshot-v1-8k",
+      "input_per_1m": 2,
+      "output_per_1m": 10,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "经典系列, 预计 8月31日全平台下线"
+     },
+     {
+      "model": "moonshot-v1-32k",
+      "input_per_1m": 5,
+      "output_per_1m": 20,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "经典系列, 预计 8月31日全平台下线"
+     },
+     {
+      "model": "moonshot-v1-128k",
+      "input_per_1m": 10,
+      "output_per_1m": 30,
+      "cached_input_per_1m": null,
+      "currency": null,
+      "note": "经典系列, 预计 8月31日全平台下线"
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  },
+  "minimax": {
+   "name": "MiniMax",
+   "region": "国内",
+   "pricing_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+   "news_url": "https://platform.minimaxi.com/docs/release-notes/models.md",
+   "record": {
+    "url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+    "source": "seed",
+    "currency": "CNY",
+    "promotions": "MiniMax-M3 按量价格永久五折; 另有优先档(约1.5倍价)与 Token Plan 订阅。",
+    "models": [
+     {
+      "model": "MiniMax-M3",
+      "input_per_1m": 2.1,
+      "output_per_1m": 8.4,
+      "cached_input_per_1m": 0.42,
+      "currency": null,
+      "note": "≤512K 输入; 永久五折, 原价 ¥4.2/¥16.8"
+     },
+     {
+      "model": "MiniMax-M3 (>512K)",
+      "input_per_1m": 4.2,
+      "output_per_1m": 16.8,
+      "cached_input_per_1m": 0.84,
+      "currency": null,
+      "note": ">512K 长输入档; 永久五折, 原价 ¥8.4/¥33.6"
+     }
+    ],
+    "page_has_pricing": true,
+    "price_hash": null,
+    "fetched_at": null,
+    "status_note": null
+   }
+  }
+ },
+ "changes": [],
+ "news": {
+  "anthropic": [],
+  "openai": [],
+  "google": [],
+  "xai": [],
+  "mistral": [],
+  "deepseek": [],
+  "qwen": [
+   {
+    "date": "2026-08",
+    "title": "模型升级通知与 Token Plan 权益升级",
+    "url": "https://help.aliyun.com/zh/model-studio/model-release-notes.md",
+    "summary": "百炼平台功能动态: 模型升级通知、个人版 Token Plan 用户权益升级。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": null,
+    "title": "阿里云百炼部分模型上下文缓存降价通知",
+    "url": "https://www.aliyun.com/notice/117497",
+    "summary": null,
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": null,
+    "title": "Qwen3-Coder-Plus 限时优惠",
+    "url": "https://help.aliyun.com/document_detail/2949810.html",
+    "summary": null,
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": null,
+    "title": "通义千问VL系列模型降价通知",
+    "url": "https://help.aliyun.com/document_detail/2864425.html",
+    "summary": null,
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": null,
+    "title": "千问系列模型降价通知",
+    "url": "https://help.aliyun.com/document_detail/2849941.html",
+    "summary": null,
+    "first_seen": "2026-08-27T05:00:00Z"
+   }
+  ],
+  "doubao": [],
+  "zhipu": [
+   {
+    "date": "2026-08-26",
+    "title": "GLM-5.3-Flash 原生多模态模型上线",
+    "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash",
+    "summary": "原生视觉能力, 总参320B激活18B混合架构, 支持代码/浏览器/GUI 协同闭环。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-08-19",
+    "title": "GLM-5.3 新一代旗舰模型上线",
+    "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3",
+    "summary": "编程能力较 GLM-5.2 提升 50%, 网络安全能力持平 Mythos 5。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-06-16",
+    "title": "GLM-5.2 新一代旗舰模型上线",
+    "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.2",
+    "summary": "支持 1M 无损上下文, Coding 与长程任务开源 SOTA。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-04-07",
+    "title": "GLM-5.1 新一代旗舰模型上线",
+    "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1",
+    "summary": "长程任务一次可持续工作 8 小时, 综合能力对齐 Claude Opus 4.6。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-02-12",
+    "title": "GLM-5 新一代旗舰模型上线",
+    "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5",
+    "summary": "新一代旗舰模型。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   }
+  ],
+  "moonshot": [],
+  "minimax": [
+   {
+    "date": "2026-07-31",
+    "title": "MiniMax H3 多模态视频模型发布",
+    "url": "https://www.minimaxi.com/blog/minimax-h3",
+    "summary": "新一代开放通用多模态视频模型, 文本/图像/视频/声音统一上下文。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-06-01",
+    "title": "MiniMax M3 语言模型正式发布",
+    "url": "https://www.minimaxi.com/models/text/m3",
+    "summary": "面向 Agent 推理、工具调用、代码与长上下文任务。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-03-18",
+    "title": "MiniMax M2.7 系列发布",
+    "url": "https://www.minimaxi.com/news/minimax-m27-zh",
+    "summary": "M2.7 / M2.7-highspeed 正式发布, 开启模型自我迭代。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   },
+   {
+    "date": "2026-02",
+    "title": "MiniMax M2.5 系列发布",
+    "url": "https://www.minimaxi.com/news/minimax-m25",
+    "summary": "编程、工具调用、办公生产力场景达到或刷新行业 SOTA。",
+    "first_seen": "2026-08-27T05:00:00Z"
+   }
+  ]
+ }
+}

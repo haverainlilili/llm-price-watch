@@ -1,0 +1,68 @@
+{
+ "url": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+ "source": "seed",
+ "currency": "USD",
+ "promotions": null,
+ "models": [
+  {
+   "model": "claude-fable-5",
+   "input_per_1m": 10,
+   "output_per_1m": 50,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": "最强旗舰"
+  },
+  {
+   "model": "claude-opus-5",
+   "input_per_1m": 5,
+   "output_per_1m": 25,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "claude-opus-4-8",
+   "input_per_1m": 5,
+   "output_per_1m": 25,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "claude-opus-4-6",
+   "input_per_1m": 5,
+   "output_per_1m": 25,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "claude-sonnet-5",
+   "input_per_1m": 2,
+   "output_per_1m": 10,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "claude-sonnet-4-6",
+   "input_per_1m": 3,
+   "output_per_1m": 15,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  },
+  {
+   "model": "claude-haiku-4-5",
+   "input_per_1m": 1,
+   "output_per_1m": 5,
+   "cached_input_per_1m": null,
+   "currency": null,
+   "note": null
+  }
+ ],
+ "page_has_pricing": true,
+ "price_hash": null,
+ "fetched_at": null,
+ "status_note": null
+}
