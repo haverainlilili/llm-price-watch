@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-29T02:52:29Z",
+ "generated_at": "2026-08-29T10:15:45Z",
  "fx": {
   "usd_cny": 6.7209,
   "source": "frankfurter.dev",
-  "fetched_at": "2026-08-29T02:52:29Z"
+  "fetched_at": "2026-08-29T10:15:45Z"
  },
  "providers": {
   "anthropic": {
@@ -79,7 +79,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:24Z"
+    "last_fetch_ts": "2026-08-29T10:14:43Z"
    }
   },
   "openai": {
@@ -283,7 +283,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:25Z"
+    "last_fetch_ts": "2026-08-29T10:14:43Z"
    }
   },
   "google": {
@@ -375,7 +375,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:25Z"
+    "last_fetch_ts": "2026-08-29T10:14:43Z"
    }
   },
   "xai": {
@@ -394,7 +394,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:26Z"
+    "last_fetch_ts": "2026-08-29T10:14:44Z"
    }
   },
   "mistral": {
@@ -413,7 +413,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:27Z"
+    "last_fetch_ts": "2026-08-29T10:14:45Z"
    }
   },
   "deepseek": {
@@ -449,7 +449,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:27Z"
+    "last_fetch_ts": "2026-08-29T10:14:45Z"
    }
   },
   "qwen": {
@@ -517,7 +517,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:29Z"
+    "last_fetch_ts": "2026-08-29T10:14:48Z"
    }
   },
   "doubao": {
@@ -569,7 +569,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:32Z"
+    "last_fetch_ts": "2026-08-29T10:14:50Z"
    }
   },
   "zhipu": {
@@ -621,7 +621,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:51:54Z"
+    "last_fetch_ts": "2026-08-29T10:15:10Z"
    }
   },
   "moonshot": {
@@ -705,7 +705,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:52:09Z"
+    "last_fetch_ts": "2026-08-29T10:15:24Z"
    }
   },
   "minimax": {
@@ -741,7 +741,7 @@
     "fetched_at": null,
     "status_note": "等待 ANTHROPIC_API_KEY",
     "last_error": null,
-    "last_fetch_ts": "2026-08-29T02:52:17Z"
+    "last_fetch_ts": "2026-08-29T10:15:33Z"
    }
   }
  },
